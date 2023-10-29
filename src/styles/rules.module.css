@@ -1,0 +1,90 @@
+
+.content {
+    margin-top: 110px;
+    color: white;
+  }
+  
+ 
+  
+  .flexContainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+
+.textMain {
+
+  width: 42%;
+}
+
+h1 {
+  font-size: 70px;
+  
+}
+
+p {
+  font-size: 25px;
+}
+
+
+
+/* About */
+
+.textBlock {
+  margin-top: 10%;
+
+}
+
+.textItem1, .textItem3 {
+  margin-right: 37%;
+  margin-top: 25px;
+}
+
+.textItem2 {
+  text-align:end;
+  margin-left: 39%;
+  margin-top: 52px;
+}
+
+
+h2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 38px;
+  padding-bottom: 38px;
+}
+
+
+
+
+
+.rectangle1,
+.rectangle3 {
+
+  padding: 10px; 
+  border-left: 3px solid #6466E8; 
+}
+
+.rectangle2 {
+  border-right: 3px solid #6466E8;
+  padding-right: 10px;
+}
+ 
+
+
+.videocontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Делает контейнер на весь экран */
+  border-top: 20px solid #e9e0e0; /* Верхняя граница */
+  border-bottom: 20px solid #ebdcdc; /* Нижняя граница */
+  margin-top: px;
+}
+
+.react-player {
+  max-width: 100%;
+  max-height: calc(100% - 40px); /* Учитываем верхнюю и нижнюю границу */
+}

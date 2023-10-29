@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+ 
+  body {
+    background-color: black;
+  }
+  
+  .app {
+    max-width: 1700px;
+    margin: 0 auto; /* Center the .app element horizontally */
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  

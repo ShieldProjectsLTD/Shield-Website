@@ -1,0 +1,59 @@
+/* Общие стили для навигации */
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #202020;
+  color: white;
+  padding: 6px 1px 6px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+
+/* Стили для левой части навигации (логотип и ссылки) */
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 45px;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+
+.navLinks {
+  padding-left: 15px;
+}
+
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Стили для секции с "Войти" и "Зарегистрироваться" */
+.userSection {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.userSection a {
+  text-decoration: none;
+  margin-right: 10px;
+
+  color: white
+}
+
+.btn {
+  
+  background-color: #6466E8;
+  padding: 18px 32px;
+  border-radius: 3px;
+  margin-left: 15px;
+}

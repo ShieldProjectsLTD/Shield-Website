@@ -1,0 +1,59 @@
+.container {
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+  }
+  
+  .container::before {
+    content: '';
+    width: 69%;
+    height: 6px;
+    background-color: #ffffff; /* Цвет верхней границы */
+    position: absolute;
+    top: 0;
+    border-radius: 4px;
+  }
+  
+  .container::after {
+    content: '';
+    width: 69%;
+    height: 6px;
+    background-color: #f7f4f4; /* Цвет нижней границы */
+    position: absolute;
+    bottom: 0;
+    border-radius: 4px;
+  }ё
+  
+  .topBorder {
+    margin: 10px 0;
+  }
+  
+  .text {
+    margin: 52px 0;
+    color:#f7f4f4;
+  }
+
+  .text p {
+    font-size: 30px;
+  }
+  
+  .vrame {
+ 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 45px; /* Измените значение на то, которое вам нужно */
+    overflow: hidden;
+    
+  }
+  
+
+  .bottomBorder {
+    margin: 48px 0;
+  }
+  
