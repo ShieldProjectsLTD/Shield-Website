@@ -1,0 +1,47 @@
+/* subscription.module.css */
+
+.subscription {
+
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cartImageContainer {
+    position: relative;
+    width: 150px; /* Увеличьте ширину контейнера изображения корзины */
+    height: 150px; /* Увеличьте высоту контейнера изображения корзины */
+    margin-right: 20px; /* Отступ справа от изображения корзины */
+  }
+  
+  .cartImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .cart {
+    text-align: center;
+    padding: 144px;
+    padding-top: 23%;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
