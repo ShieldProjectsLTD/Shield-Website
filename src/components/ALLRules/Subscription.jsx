@@ -15,24 +15,22 @@ const Subscription = () => {
             {/* <img src={LOG} alt="Cart" className={sb.cartImage} /> */}
           </div>
           <p>SHIELD+ 1 месяц</p>
-          <p>200Р Ежемесячно</p>
-          <button>Добавить в корзину</button>
+          <button>200Р Ежемесячно</button>
         </div>
         <div className={sb.cart}>
           <div className={sb.cartImageContainer}>
             {/* <img src={LOG} alt="Cart" className={sb.cartImage} /> */}
           </div>
           <p>SHIELD+ 3 месяца</p>
-          <p>400Р Ежемесячно</p>
-          <button>Добавить в корзину</button>
+          <button>400Р Ежемесячно</button>
         </div>
         <div className={sb.cart}>
           <div className={sb.cartImageContainer}>
           {/* <img src={LOG} alt="Cart"  className={sb.cartImage} /> */}
           </div>
           <p>SHIELD+ Multi</p>
-          <p>Оставить заявку</p>
-          <button>Добавить в корзину</button>
+
+          <button>Оставить заявку</button>
         </div>
       </div>
     </div>
