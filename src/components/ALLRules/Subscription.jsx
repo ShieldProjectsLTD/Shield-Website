@@ -21,6 +21,7 @@ const Subscription = () => {
           <div className={sb.cartImageContainer}>
             {/* <img src={LOG} alt="Cart" className={sb.cartImage} /> */}
           </div>
+          <p> Выгодное решение </p>
           <p>SHIELD+ 3 месяца</p>
           <button>400Р / Ежемесячно</button>
         </div>
