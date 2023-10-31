@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 110px;
   }
   
  .cartImageContainer {
@@ -39,7 +40,7 @@
   background-image: url('../images/imgcart.jpg'); 
   background-size: cover;
   background-position: center center;
-  filter: brightness(0.3); 
+  filter: brightness(0.2); 
   z-index: -1;
 }
 
