@@ -78,13 +78,13 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Делает контейнер на весь экран */
-  border-top: 20px solid #e9e0e0; /* Верхняя граница */
-  border-bottom: 20px solid #ebdcdc; /* Нижняя граница */
+  height: 100vh; 
+  border-top: 20px solid #e9e0e0; 
+  border-bottom: 20px solid #ebdcdc; 
   margin-top: px;
 }
 
 .react-player {
   max-width: 100%;
-  max-height: calc(100% - 40px); /* Учитываем верхнюю и нижнюю границу */
+  max-height: calc(100% - 40px);
 }
