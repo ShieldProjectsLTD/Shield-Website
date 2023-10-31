@@ -23,8 +23,8 @@
   
 .cart {
   text-align: center;
-  padding: 144px;
-  padding-top: 23%;
+  padding: 111px;
+  padding-top: 35%;
   border: 1px solid #ccc;
   position: relative; 
 }
@@ -39,7 +39,7 @@
   background-image: url('../images/imgcart.jpg'); 
   background-size: cover;
   background-position: center center;
-  filter: brightness(0.5); 
+  filter: brightness(0.3); 
   z-index: -1;
 }
 
@@ -53,10 +53,22 @@
   
   
   button {
-    background-color: #007bff;
+    background-color: #6466E8;
     color: #fff;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+    border-radius: 3px;
   }
+
+  
+  .border {
+    background-color: #6466E8;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
   
