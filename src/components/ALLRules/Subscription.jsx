@@ -1,4 +1,4 @@
-// Subscription.js
+
 import React from 'react';
 import sb from "../../styles/subscription.module.css";
 // import LOG from "../../images/imgcart.jpg";
@@ -23,7 +23,7 @@ const Subscription = () => {
           </div>
           <p className={sb.border}> Выгодное решение </p>
           <p>SHIELD+ 3 месяца</p>
-          <button>400Р / Ежемесячно</button>
+          <button>400Р / Ежеквартально</button>
         </div>
         <div className={sb.cart}>
           <div className={sb.cartImageContainer}>

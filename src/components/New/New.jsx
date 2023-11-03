@@ -1,8 +1,14 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
-const New = () => {
+
+const New = ({match}) => {
+  
+ const { newsId} = useParams
   return (
-    <div>New 111dasdas</div>
+    <div>
+    <h1>Страница новости {newsId}</h1>
+  </div>
   )
 }
 
