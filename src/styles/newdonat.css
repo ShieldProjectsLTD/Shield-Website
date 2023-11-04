@@ -1,0 +1,49 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 20px; 
+}
+
+.bordered-content {
+
+  padding: 10px;
+   
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.photo {
+  flex: 1;
+
+}
+
+.leftimage {
+  max-width: 100%; 
+  display: block;
+}
+
+.text {
+  flex: 2;
+  padding: 10px; 
+ 
+}
+
+
+
+
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0; 
+}
+
+
+.Texta {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}

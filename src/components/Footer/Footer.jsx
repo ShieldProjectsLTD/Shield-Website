@@ -13,7 +13,7 @@ import React from 'react';
 
 const Footer = () => {
   const style = {
-    color: 'red'
+    color: 'black'
   };
 
   return (
