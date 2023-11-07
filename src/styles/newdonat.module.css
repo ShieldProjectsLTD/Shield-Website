@@ -1,10 +1,10 @@
-.grid-container {
+.gridcontainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
   grid-gap: 20px; 
 }
 
-.bordered-content {
+.borderedcontent {
 
   padding: 10px;
    

@@ -1,15 +1,23 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
   }
   
   html, body {
     height: 100%;
   }
+
+  p,h1,h2,h3,h4,h5 {
+    color: white;
+  }
  
   body {
-    background-color: rgb(241, 2, 2);
+   background-color: black
+    /* background-image: url("/src/images/body1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
   }
   
   .app {
@@ -19,4 +27,6 @@
     flex-direction: column;
     margin-top: 25px;
   }
+
+
   

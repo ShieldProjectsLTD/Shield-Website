@@ -13,20 +13,11 @@
     padding-bottom: 110px;
   }
   
- .cartImageContainer {
-  position: relative;
-  width: 100%; 
-  height: 100%; 
-}
-  
-
-
   
 .cart {
   text-align: center;
   padding: 111px;
   padding-top: 35%;
-  border: 1px solid #ccc;
   position: relative; 
 }
 
@@ -42,6 +33,7 @@
   background-position: center center;
   filter: brightness(0.2); 
   z-index: -1;
+  border-radius: 15px;
 }
 
 
@@ -72,4 +64,6 @@
     border-radius: 6px;
   }
 
-  
+  .topblock {
+    margin-top: 10px;;
+  }

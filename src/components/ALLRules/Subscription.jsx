@@ -1,7 +1,6 @@
 
 import React from 'react';
 import sb from "../../styles/subscription.module.css";
-// import LOG from "../../images/imgcart.jpg";
 
 const Subscription = () => {
   return (
@@ -11,26 +10,16 @@ const Subscription = () => {
       </div>
       <div className={sb.container}>
         <div className={sb.cart}>
-          <div className={sb.cartImageContainer}>
-            {/* <img src={LOG} alt="Cart" className={sb.cartImage} /> */}
-          </div>
-          <p>SHIELD+ 1 месяц</p>
+          <p className='topblock'>SHIELD+ 1 месяц</p>
           <button>200Р / Ежемесячно</button>
         </div>
         <div className={sb.cart}>
-          <div className={sb.cartImageContainer}>
-            {/* <img src={LOG} alt="Cart" className={sb.cartImage} /> */}
-          </div>
           <p className={sb.border}> Выгодное решение </p>
-          <p>SHIELD+ 3 месяца</p>
+          <p className='topblock'>SHIELD+ 3 месяца</p>
           <button>400Р / Ежеквартально</button>
         </div>
         <div className={sb.cart}>
-          <div className={sb.cartImageContainer}>
-          {/* <img src={LOG} alt="Cart"  className={sb.cartImage} /> */}
-          </div>
-          <p>SHIELD+ Multi</p>
-
+          <p className='topblock'> SHIELD+ Multi</p>
           <button>Оставить заявку</button>
         </div>
       </div>

@@ -5,10 +5,12 @@ import Footer from "../Footer/Footer";
 
 const App = () => {
   return (
-    <div className="app">
-      <Headers />
-      <AppRoutes />
-      <Footer />
+    <div className="appbody">
+      <div className="app">
+        <Headers />
+        <AppRoutes />
+        <Footer />
+      </div>
     </div>
   );
 };
