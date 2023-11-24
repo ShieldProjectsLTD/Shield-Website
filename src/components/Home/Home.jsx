@@ -12,7 +12,7 @@ const Home = () => {
   return (
    
 <div className='app'>
-   <Rules />
+  <Rules />
   <VideoContainer />
   <Subscription />
   <NewDonat />
